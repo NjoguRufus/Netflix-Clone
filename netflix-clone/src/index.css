@@ -1,0 +1,34 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css 
+body {
+  background-image: url('path_to_your_background_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+
+/* Add this to src/index.css */
+/* Customize scrollbar */
+/* For Webkit Browsers */
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563; /* Tailwind gray-600 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937; /* Tailwind gray-900 */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #1f2937;
+}
