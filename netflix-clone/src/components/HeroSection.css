@@ -1,0 +1,35 @@
+/* src/components/HeroSection.css */
+.hero-section {
+    position: relative;
+    height: 60vh; /* Adjust height as needed */
+    background-image: url('https://your-image-url.com'); /* Replace with your hero image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background-color: #f40612; /* Darker red on hover */
+  }
+  
